@@ -103,9 +103,7 @@ set backupdir=$HOME/.vim/backup
 "アンドゥファイルのディレクトリ指定
 set undodir=$HOME/.vim/backup
 "スワップファイルを作成しない
-set noswapfile
-
-
+"set noswapfile
 
 """"""""""""""""""""""""""""""
 "ペースト時に自動インデントで崩れるのを防ぐ
@@ -143,8 +141,7 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 
 NeoBundle 'reireias/vim-cheatsheet'
 " reireias/vim-cheatsheet
-let g:cheatsheet#cheat_file = '~/.vim_cheatsheet.md'
-
+let g:cheatsheet#cheat_file = '~/.cheatsheet.md'
 
 "----------------------------------------------------------
 " MarkDownの設定
